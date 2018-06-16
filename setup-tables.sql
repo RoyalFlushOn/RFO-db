@@ -1,7 +1,7 @@
 CREATE TABLE Users (
   first varchar(20) DEFAULT NULL,
   second varchar(20) DEFAULT NULL,
-  D_B_O date DEFAULT NULL,
+  D_O_B date DEFAULT NULL,
   email varchar(100) DEFAULT NULL,
   username varchar(15) NOT NULL DEFAULT '',
   password varchar(100) DEFAULT NULL,
