@@ -17,13 +17,13 @@ ALTER TABLE Users
 CREATE TABLE Articles (
   article_id varchar(6) NOT NULL DEFAULT '',
   headline varchar(180) DEFAULT NULL,
-  file_name mediumtext,
+  content mediumtext,
   author varchar(15) DEFAULT NULL,
   publish date DEFAULT NULL,
   tags varchar(50) DEFAULT NULL,
   comm_id varchar(5) DEFAULT NULL,
-  tagline varchar(200) DEFAULT NULL,
-  thumbnail varchar(100) DEFAULT NULL,
+  tagline varchar(250) DEFAULT NULL,
+  thumbnail varchar(250) DEFAULT NULL,
   is_validated char(1) DEFAULT NULL
 );
 
